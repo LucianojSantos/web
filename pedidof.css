@@ -1,0 +1,74 @@
+    body{ 
+      background-color: #11a6d6 ;
+    }
+    #login-box{
+      background-color:#1992b7 ;
+      width: 380px;
+      height: 460px;
+      margin: 140px auto 0px;
+      border-radius: 5px;
+      
+    }
+    #login-box-interno{
+      width: 360px;
+      height: 440px;
+      background-color:#fdfdfd;
+      position: absolute;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px black;
+      overflow:hidden;
+    }
+    #login-box-label{
+      height: 45px;
+      text-align: center;
+    
+      font:bold 14px/45px sans-serif;
+    
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    
+      background: rgb(221,221,221); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(221,221,221,1) 1%, rgba(186,186,186,1) 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(221,221,221,1) 1%,rgba(186,186,186,1) 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(221,221,221,1) 1%,rgba(186,186,186,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#bababa',GradientType=0 ); /* IE6-9 */
+    
+    box-shadow: 1px 0px 3px black;
+    color: #555555;
+
+    
+    }
+    input{
+      margin: 3px;
+      border-radius: 3px;
+      font: sans-serif;
+      font-size: 12pt;
+    }
+    input:hover{
+      font: bold 13px sans-serif;
+      color: #aeaeae;
+      border-radius: 3px;
+      border: 1px solid #bfc4c6;
+      outline:nome;
+    }
+    legend{
+        color: #888888;
+        font-weight: bold;
+        font-size: 13pt;
+        font-family: sans-serif;
+    }
+    fieldset{
+        border-color: #cecece;
+        margin: 20px;
+    }
+    fieldset#sexo{
+        width: 150px;
+    }
+    fieldset#usuario{
+        background-color: #11a6d6;
+    }
+    fieldset#endereco{
+        background-color: #11a6d6;
+    }
+</style>
